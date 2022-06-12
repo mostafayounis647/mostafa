@@ -1,0 +1,127 @@
+body
+{
+    font-family: sans-serif;
+    padding:0;
+    margin: 0;
+    background-color: aliceblue;
+    direction: rtl; 
+}
+.container{
+width: 80%;
+margin: auto;
+overflow: hidden;
+}
+ul{
+    margin: 0;
+    padding: 0;
+
+}
+header{
+    background: #353637;
+    color: white;
+    padding-top: 50px;
+    min-height:150px;
+    border-bottom: #32a0c2 5px solid;
+
+    ;
+}
+
+header a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 19px;
+}
+header li{
+    float: right;
+    display: inline;
+    padding: 0 20px 0 20px  ;
+}
+header #brand{
+    float: right;
+}
+header #brand{
+    margin: 0;
+    color: #32a0c2
+}
+header nav{
+    float: left;
+    margin-top:20px ;
+}
+header .current a{
+    color: #32a0c2;
+    font-weight: bold;
+}
+header a:hover{
+    color: bisque;
+    font-weight: bold;
+}
+#showcase{
+    min-height:400px;
+    background: url("./img/00.jpg") no-repeat center ;
+background-size: cover ; 
+}
+#newsletter{
+    padding: 15px;
+    color: white;
+    background: #353637;
+}
+#newsletter h1{
+    float: right;
+
+}
+#newsletter form{
+    float: left;
+    margin-top: 15px;
+}
+#newsletter button{ float: left;
+    margin-top: 15px;
+
+}
+
+padding: 10px;
+height: 27px;
+width: 250px;
+ 
+.button{
+height: 50px;
+background: white;
+padding-left: 20px;
+padding-right: 20px;
+color: #353637
+}
+footer{
+padding: 20px;
+margin-top: 20px;
+color: white;
+background-color: rgb(255, 0, 0);
+text-align: center;
+font-weight: bol;
+font size: 30px;
+:
+}
+@media(max-width:768px)
+{
+header#brand,
+header nav,
+header nav li,
+#newsletter h1,
+#newsletter form,
+#boxes .box
+{float: none;
+    text-align: center;
+    width: 100%;
+
+}
+header{
+    padding-bottom: 20px;
+}
+#newsletter.button{
+    display: block;
+    width: 100%;
+}
+#newsletter form input[type="email"]{
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+}
